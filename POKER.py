@@ -5,6 +5,7 @@
 
 valeurs = list(range(1,14)) #génération des valeurs de 1 à 13 (1 à 10 et 11=V ; 12= D; 13= R )
 couleurs = ["trefle", "pique", "carreau", "coeur"] #génération des couleurs
+#COM SARAH ça marche comme ça, mais attention, la consigne était d'utiliser les symboles
 
 hauteurs = { #dictionnaire de traduction 11,12,13 en valeurs hautes V ; D et R
     11: "V",
@@ -14,6 +15,7 @@ hauteurs = { #dictionnaire de traduction 11,12,13 en valeurs hautes V ; D et R
     "D": "12",
     "R": "13",
 }
+# COM SARAH : puisque c'est un dictionnaire, tu n'es pas obligé de mettre le contenu dans les deux sens. Tu peux récupérer la clé à partir de la valeur et vice-versa
 
 class createDeck:
     def __init__ (self, valeur, couleur):
